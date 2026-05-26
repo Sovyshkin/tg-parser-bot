@@ -1,0 +1,29 @@
+# Secrets
+.env
+*.pem
+*.key
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual envs
+.venv/
+venv/
+
+# Telethon sessions / private keys
+sessions/.session.key
+sessions/*.session
+sessions/*.session-journal
+sessions/*.session.enc
+
+# Runtime data
+exports/*.db
+exports/*.sqlite
+exports/*.xlsx
+
+# Generated docs/artifacts
+README.html
+README.rtf
+scripts_build_readme_pdf.py
